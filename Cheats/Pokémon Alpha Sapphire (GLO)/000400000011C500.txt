@@ -1,6 +1,7 @@
 [++Currency codes++]
 
 [Add $100k when below $200k]
+*citra_enabled
 D3000000 00000000
 38C71DC0 00030D40
 D9000000 08C71DC0
@@ -13,6 +14,7 @@ D2000000 00000000
 08C8B36C 0001869F
 
 [65535 Ash in Soot Sack]
+*citra_enabled
 18C81B54 0000FFFF
 
 [--]
@@ -167,6 +169,7 @@ D2000000 00000000
 [--]
 
 [Radar Pokemon always 3 star potential]
+*citra_enabled
 D3000000 082C6C90
 C0000000 0000000B
 80000000 FF000000
@@ -180,6 +183,7 @@ D2000000 00000000
 {Guaranteed multiple perfect IVs. Doesn't work on random/stationary encounters}
 
 [Dex-nav search level 100+ for seen pokemon]
+*citra_enabled
 D3000000 08C82668
 C0000000 000002D1
 A0000000 00000000
@@ -275,12 +279,18 @@ D1000000 00000000
 [--]
 
 [999 Rainbow+ pokeblocks]
+*citra_enabled
 D3000000 08C8E9C0
 10000000 000003E7
 D2000000 00000000
 {Because none of the rest really matter}
 
+[60FPS v1.4]
+*citra_enabled
+28C690A1 00000000
+
 [No outlines (v.1.4)]
+*citra_enabled
 0037A140 00000000
 0037A144 00000000
 
@@ -349,6 +359,15 @@ D2000000 00000000
 [--]
 
 [++Other codes++]
+
+[EXP multiplier after battle(Includes figure of a decimal point) v1.4]
+*citra_enabled
+00579860 E1D002B2
+00579864 E92D4002
+00579868 E3A01004
+0057986C E0000190
+00579870 E8BD8002
+0016B81C EB10380F
 
 [Inf. Money (9,999,999)]
 08C71DB0 0098967F
