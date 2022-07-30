@@ -11,6 +11,7 @@ D2000000 00000000
 {Buy all the things and still get the satisfaction of racking up money!}
 
 [99999 Pokemiles]
+*citra_enabled
 08C8B36C 0001869F
 
 [65535 Ash in Soot Sack]
